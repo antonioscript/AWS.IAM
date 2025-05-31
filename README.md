@@ -249,8 +249,8 @@ _> And clicking on these services, S3 for example, we will see the permissions a
 ![image](https://github.com/user-attachments/assets/e95a90f9-f1f7-44ff-a4d0-47874aaafcc1)
 
 
-## Roles
-_Para falar de Roles, seria mais fácil entender que as Roles são atribuídas as serviços de forma temporária, muitas vezes na criação do serviço_
+## Rules
+> _To talk about Roles, it would be easier to understand that the Roles are assigned the services temporarily, often in the creation of the service_
 
 </br>
 
@@ -264,7 +264,7 @@ _Para falar de Roles, seria mais fácil entender que as Roles são atribuídas a
 
 </br>
 
-_> Rule criado automaticamente na criação do recurso_
+_> Rule created automatically when creating the recurso_
 
 
 -------
@@ -274,7 +274,7 @@ _> Rule criado automaticamente na criação do recurso_
 
 -----
 
-> Supondo que queiramos criar uma permissão para a function acessear o DynamoDB:
+_> Supposing we want to create a permission for the function to access DynamoDB:_
 
 </br>
 
