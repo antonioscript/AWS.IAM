@@ -93,5 +93,38 @@ A simple and practical guide to understand how IAM works in AWS, using a real-wo
 
 ---
 
-## References
+# AWS Console
+
+## Create a User
+</br>
+
+![image](https://github.com/user-attachments/assets/0c41e24e-0020-4882-a526-0ec829d14188)
+
+---
+
+### Details of User
+
+**Click on User**
+
+</br>
+
+![image](https://github.com/user-attachments/assets/9a41e7b9-5444-43b4-947c-26f9653976e4)
+
+</br>
+
+> In this case, as the change password flag has been marked, on the first access of the user he will have to change the password
+
+-----
+
+</br>
+
+Notice in the panel on the Permissions tab, that it has a Directly Attached policy. That is, it is not because it is part of a group but yes, because this policy was linked to it atuomaticamente by default when the user was created
+
+And here’s a very important note: 
+
+> 💡 **Highly** When we talk about attaching permissions to a user, group or role. We’re talking about **policies**! When someone talks about attaching permissions to a group/user we are talking indirectly about **policies**. 
+
+
+
+# References
 https://www.youtube.com/watch?v=hAk-7ImN6iM
