@@ -122,7 +122,69 @@ Notice in the panel on the Permissions tab, that it has a Directly Attached poli
 
 And here’s a very important note: 
 
-> 💡 **Highly** When we talk about attaching permissions to a user, group or role. We’re talking about **policies**! When someone talks about attaching permissions to a group/user we are talking indirectly about **policies**. 
+> 💡 **Highly** | When we talk about attaching permissions to a user, group or role. We’re talking about **policies**! When someone talks about attaching permissions to a group/user we are talking indirectly about **policies**. 
+
+
+## Create a Group
+</br>
+
+![image](https://github.com/user-attachments/assets/2a7e4a5a-1c1b-490c-8bc0-85e653469bbb)
+
+----
+
+![image](https://github.com/user-attachments/assets/335d51dd-bcab-419e-8094-78d9bb611522)
+
+</br>
+> In this case you can already put a user in the group creation or attach that user later. No matter
+----
+
+### Details of Group
+
+Here we can see details of the group, such as who is part of the group and what permissions (policies)
+
+</br>
+
+![image](https://github.com/user-attachments/assets/91a5c300-8aa2-43d3-b3a4-b62896edbe93)
+
+-----
+
+![image](https://github.com/user-attachments/assets/614f00af-46f8-4ef7-afa0-ef9883c9df42)
+
+
+### Attach policy to a group
+
+![image](https://github.com/user-attachments/assets/fdc84c62-b4c0-4a0f-849d-78b1bace9f10)
+
+
+------
+
+![image](https://github.com/user-attachments/assets/4103837c-35d9-4152-8857-c5a09a693229)
+
+
+-----
+
+![image](https://github.com/user-attachments/assets/850df1d3-9e46-4c38-93f6-d1dd939d9bb5)
+
+----
+
+### Users in the group
+
+
+## Policies
+
+### Attach policy to a group
+
+![image](https://github.com/user-attachments/assets/9a4deedb-09a4-4579-b389-deaee98aab8a)
+
+> Notice that the user has policies applied to himself directly and others that are inherited through the group
+
+## Roles
+
+
+## Permissions
+
+
+
 
 
 
