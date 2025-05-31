@@ -212,19 +212,28 @@ _> Notice that the user has policies applied to himself directly and others that
 
 ## Policies
 
-_> Uma coisa que tem que ficar clara aqui, é que a organização básica da Política é assim: **Policy -> Service -> Permissão**. Voltemos para o exemplo da política que foi atribúida ao grupo do usuário, a "AmazonS3FullAccess". _
+_> One thing that has to be clear here, is that the basic organization of the Policy is as follows: **Policy -> Service -> Permission**. Let’s go back to the example of the policy that was assigned to the user group, "AmazonS3FullAccess"._
+</br>
+
 
 ![image](https://github.com/user-attachments/assets/8d0b1920-553f-46fa-99c6-84a3f7a7bdfe)
 
 ----
 
-_> Se clicamos na políticas poderemos ver que ela tem dois serviços: S3 e S3 Object Lambda_
+_> If we click on the policy we can see that it has two services: S3 and S3 Object Lambda_
+
+</br>
 
 ![image](https://github.com/user-attachments/assets/c0476c9b-0210-4049-9d49-af283734b8e6)
 
 ----
 
-> E clicando nesses services, S3 por exemplo, veremos as permissões associadas a eles:
+</br>
+
+_> And clicking on these services, S3 for example, we will see the permissions associated with them:_
+
+
+</br>
 
 ![image](https://github.com/user-attachments/assets/41887b9c-937d-4807-92ba-a1d6d37f027e)
 
