@@ -249,8 +249,6 @@ _> And clicking on these services, S3 for example, we will see the permissions a
 ![image](https://github.com/user-attachments/assets/e95a90f9-f1f7-44ff-a4d0-47874aaafcc1)
 
 
-
-
 ## Roles
 
 
