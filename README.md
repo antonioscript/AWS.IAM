@@ -1,6 +1,33 @@
 # AWS.IAM
 This repository provides a focused overview of AWS Identity and Access Management (IAM), including key concepts such as users, groups, roles, policies, and permission management. Ideal for developers and cloud engineers looking to understand and apply IAM securely and effectively.
 
+## Summary
+
+- [AWS IAM (Identity and Access Management)](#aws-iam-identity-and-access-management)
+  - [IAM as a Company](#iam-as-a-company)
+    - [User = Employee](#1-user--employee)
+    - [Group = Department](#2-group--department)
+    - [Role = Temporary Role or Visitor Badge](#3-role--temporary-role-or-visitor-badge)
+    - [Policy = Access Manual](#4-policy--access-manual-in-json)
+  - [Who Can Have What?](#who-can-have-what)
+  - [Example 1: Developer Fernanda Needs EC2 and S3](#example-1-developer-fernanda-needs-ec2-and-s3)
+  - [Example 2: EC2 Accessing S3](#example-2-ec2-accessing-s3)
+  - [Policy Types](#policy-types)
+  - [Final Summary](#final-summary)
+- [AWS Console](#aws-console)
+  - [Create a User](#create-a-user)
+  - [Details of User](#details-of-user)
+  - [Create a Group](#create-a-group)
+  - [Details of Group](#details-of-group)
+  - [Attach policy to a group](#attach-policy-to-a-group)
+  - [Users in the group](#users-in-the-group)
+  - [Policies](#policies)
+  - [Roles](#roles)
+  - [Permissions](#permissions)
+- [References](#references)
+
+
+
 # AWS IAM (Identity and Access Management) 
 
 A simple and practical guide to understand how IAM works in AWS, using a real-world analogy.
@@ -184,6 +211,26 @@ _> Notice that the user has policies applied to himself directly and others that
 
 
 ## Policies
+
+_> Uma coisa que tem que ficar clara aqui, é que a organização básica da Política é assim: **Policy -> Service -> Permissão**. Voltemos para o exemplo da política que foi atribúida ao grupo do usuário, a "AmazonS3FullAccess". _
+
+![image](https://github.com/user-attachments/assets/8d0b1920-553f-46fa-99c6-84a3f7a7bdfe)
+
+----
+
+_> Se clicamos na políticas poderemos ver que ela tem dois serviços: S3 e S3 Object Lambda_
+
+![image](https://github.com/user-attachments/assets/c0476c9b-0210-4049-9d49-af283734b8e6)
+
+----
+
+> E clicando nesses services, S3 por exemplo, veremos as permissões associadas a eles:
+
+![image](https://github.com/user-attachments/assets/41887b9c-937d-4807-92ba-a1d6d37f027e)
+
+
+----
+
 
 
 
