@@ -112,7 +112,7 @@ A simple and practical guide to understand how IAM works in AWS, using a real-wo
 
 </br>
 
-> In this case, as the change password flag has been marked, on the first access of the user he will have to change the password
+_> In this case, as the change password flag has been marked, on the first access of the user he will have to change the password_
 
 -----
 
@@ -122,10 +122,11 @@ Notice in the panel on the Permissions tab, that it has a Directly Attached poli
 
 And here’s a very important note: 
 
-> 💡 **Highly** | When we talk about attaching permissions to a user, group or role. We’re talking about **policies**! When someone talks about attaching permissions to a group/user we are talking indirectly about **policies**. 
+_> 💡 **Highly** | When we talk about attaching permissions to a user, group or role. We’re talking about **policies**! When someone talks about attaching permissions to a group/user we are talking indirectly about **policies**._
 
 
 ## Create a Group
+
 </br>
 
 ![image](https://github.com/user-attachments/assets/2a7e4a5a-1c1b-490c-8bc0-85e653469bbb)
@@ -135,7 +136,8 @@ And here’s a very important note:
 ![image](https://github.com/user-attachments/assets/335d51dd-bcab-419e-8094-78d9bb611522)
 
 </br>
-> In this case you can already put a user in the group creation or attach that user later. No matter
+
+_> In this case you can already put a user in the group creation or attach that user later. No matter_
 ----
 
 ### Details of Group
@@ -169,14 +171,15 @@ Here we can see details of the group, such as who is part of the group and what 
 
 ### Users in the group
 
+![image](https://github.com/user-attachments/assets/9a4deedb-09a4-4579-b389-deaee98aab8a)
+
+_> Notice that the user has policies applied to himself directly and others that are inherited through the group_
+
+
 
 ## Policies
 
-### Attach policy to a group
 
-![image](https://github.com/user-attachments/assets/9a4deedb-09a4-4579-b389-deaee98aab8a)
-
-> Notice that the user has policies applied to himself directly and others that are inherited through the group
 
 ## Roles
 
