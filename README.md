@@ -8,7 +8,7 @@ This repository provides a focused overview of AWS Identity and Access Managemen
     - [User = Employee](#1-user--employee)
     - [Group = Department](#2-group--department)
     - [Role = Temporary Role or Visitor Badge](#3-role--temporary-role-or-visitor-badge)
-    - [Policy = Access Manual](#4-policy--access-manual-in-json)
+    - [Policy = Access Manual (in JSON)](#4-policy--access-manual-in-json)
   - [Who Can Have What?](#who-can-have-what)
   - [Example 1: Developer Fernanda Needs EC2 and S3](#example-1-developer-fernanda-needs-ec2-and-s3)
   - [Example 2: EC2 Accessing S3](#example-2-ec2-accessing-s3)
@@ -17,14 +17,15 @@ This repository provides a focused overview of AWS Identity and Access Managemen
 - [AWS Console](#aws-console)
   - [Create a User](#create-a-user)
     - [Details of User](#details-of-user)
-    - [Create a Group](#create-a-group)
+  - [Create a Group](#create-a-group)
     - [Details of Group](#details-of-group)
     - [Attach policy to a group](#attach-policy-to-a-group)
     - [Users in the group](#users-in-the-group)
   - [Policies](#policies)
-  - [Roles](#roles)
-  - [Permissions](#permissions)
+    - [Create Policies](#create-policies)
+  - [Rules](#rules)
 - [References](#references)
+
 
 
 
