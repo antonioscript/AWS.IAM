@@ -138,6 +138,7 @@ _> 💡 **Highly** | When we talk about attaching permissions to a user, group o
 </br>
 
 _> In this case you can already put a user in the group creation or attach that user later. No matter_
+
 ----
 
 ### Details of Group
@@ -151,6 +152,8 @@ Here we can see details of the group, such as who is part of the group and what 
 -----
 
 ![image](https://github.com/user-attachments/assets/614f00af-46f8-4ef7-afa0-ef9883c9df42)
+
+----
 
 
 ### Attach policy to a group
@@ -173,7 +176,10 @@ Here we can see details of the group, such as who is part of the group and what 
 
 ![image](https://github.com/user-attachments/assets/9a4deedb-09a4-4579-b389-deaee98aab8a)
 
+
 _> Notice that the user has policies applied to himself directly and others that are inherited through the group_
+
+----
 
 
 
