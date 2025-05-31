@@ -5,7 +5,8 @@ This repository provides a focused overview of AWS Identity and Access Managemen
 
 A simple and practical guide to understand how IAM works in AWS, using a real-world analogy.
 </br>
-![ChatGPT Image 31 de mai  de 2025, 14_15_32](https://github.com/user-attachments/assets/419573c3-5ba5-487e-a089-1b7b41a84cb9)
+
+![Visual Guide](https://github.com/user-attachments/assets/7e150078-0372-4ffc-9189-899602771ad0)
 
 ---
 
@@ -36,7 +37,7 @@ A simple and practical guide to understand how IAM works in AWS, using a real-wo
 
 ---
 
-## 🔒 Who Can Have What?
+## Who Can Have What?
 
 | Entity    | Can Have Policy? | Recommended?           | Best Practice                                     |
 |-----------|------------------|------------------------|---------------------------------------------------|
@@ -92,7 +93,5 @@ A simple and practical guide to understand how IAM works in AWS, using a real-wo
 
 ---
 
-## Visual Guide
-
-> (Insert the IAM diagram image here)
-
+## References
+https://www.youtube.com/watch?v=hAk-7ImN6iM
