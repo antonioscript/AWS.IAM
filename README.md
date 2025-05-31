@@ -16,11 +16,11 @@ This repository provides a focused overview of AWS Identity and Access Managemen
   - [Final Summary](#final-summary)
 - [AWS Console](#aws-console)
   - [Create a User](#create-a-user)
-  - [Details of User](#details-of-user)
-  - [Create a Group](#create-a-group)
-  - [Details of Group](#details-of-group)
-  - [Attach policy to a group](#attach-policy-to-a-group)
-  - [Users in the group](#users-in-the-group)
+    - [Details of User](#details-of-user)
+    - [Create a Group](#create-a-group)
+    - [Details of Group](#details-of-group)
+    - [Attach policy to a group](#attach-policy-to-a-group)
+    - [Users in the group](#users-in-the-group)
   - [Policies](#policies)
   - [Roles](#roles)
   - [Permissions](#permissions)
@@ -250,15 +250,51 @@ _> And clicking on these services, S3 for example, we will see the permissions a
 
 
 ## Roles
+_Para falar de Roles, seria mais fácil entender que as Roles são atribuídas as serviços de forma temporária, muitas vezes na criação do serviço_
+
+</br>
 
 
+![image](https://github.com/user-attachments/assets/55051019-2afc-43fb-8c4f-f92a127dddbb)
 
 
+----
 
-## Permissions
+![image](https://github.com/user-attachments/assets/025efc01-86f6-4c0d-b62e-e45336601914)
+
+</br>
+
+_> Rule criado automaticamente na criação do recurso_
 
 
+-------
 
+![image](https://github.com/user-attachments/assets/3af78c2d-40e7-4b25-a8ae-86382bb1d946)
+
+
+-----
+
+> Supondo que queiramos criar uma permissão para a function acessear o DynamoDB:
+
+</br>
+
+![image](https://github.com/user-attachments/assets/c31a722b-4ef4-43fc-8627-cbf57d8baa89)
+
+
+------
+
+
+![image](https://github.com/user-attachments/assets/14f8b90a-7efc-416b-a9d5-0274ad4ccd41)
+
+----
+
+![image](https://github.com/user-attachments/assets/844d1b96-d9c4-4f57-9359-250dfb5b3987)
+
+
+-----
+
+
+![image](https://github.com/user-attachments/assets/90d43f83-6535-444e-a219-50457ea5f8cf)
 
 
 
