@@ -25,7 +25,7 @@ A simple and practical guide to understand how IAM works in AWS, using a real-wo
 ### 3. **Role** = Temporary Role or Visitor Badge
 - Not tied to any specific person.
 - It is **assumed temporarily** by a user, service, or external identity.
-- Used by **EC2, Lambda**, etc., to interact with AWS securely.
+- Used by **EC2, Lambda**, etc., to interact with AWS securely. (Services)
 - Policies define what the Role can do.
 
 ### 4. **Policy** = Access Manual (in JSON)
